@@ -73,7 +73,7 @@ return (
             <div class="flex justify-between p-4 text-sm">
                 <div>
                     <ul class="flex text-gray-300 gap-3 cursor-pointer">
-                        <li class="hover:text-white" ><p>Movies</p></li>
+                        <li class="hover:text-white" ><a href="/movies/123">Movies</a></li>
                         <li class="hover:text-white"><p>Stream <sup class="text-pink-600 -left-3 -inset-y-3">New</sup></p></li>
                         <li class="hover:text-white"><p>Events</p></li>
                         <li class="hover:text-white"><a href="/plays">Plays</a></li>
