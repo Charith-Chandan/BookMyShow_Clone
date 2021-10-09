@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#but
+{
+  background: rgb(248,68,100);
+}
+#heart
+{
+  fill: #f84465;
+  color: #f84465;
+}
+#seeall
+{
+  color: rgb(220,53,88);
+}
+#nav
+{
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+#start
+{
+  letter-spacing: -0.019 rem;
+}
+#logo
+{
+  height: 36px;
+  width: 115px;
+}
+#cut
+{
+  overflow: hidden;
+  /* white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+.slick-prev {
+  left: 0.01% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 1.9% !important;
+  z-index: 1;
+}
+.slick-dots
+{
+  bottom: 10% !important;
+  color: white;
+  z-index: 1;
+}
+.slick-dots-color
+{
+  color: white;
+  background:white;
+}
+#left .slick-prev {
+  z-index: 1;
+}
+#right .slick-next {
+  right: 1.5% !important;
+  display: hidden;
+  z-index: 0;
+}
+
+#premier
+{
+  background: #2B3148;
+}
